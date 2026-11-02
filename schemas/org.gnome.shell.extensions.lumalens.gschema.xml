@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lumalens" path="/org/gnome/shell/extensions/lumalens/">
+    <key name="zoom-mode" type="as"><default>['&lt;Control&gt;1']</default><summary>Static Zoom</summary></key>
+    <key name="draw-mode" type="as"><default>['&lt;Control&gt;2']</default><summary>Draw without zoom</summary></key>
+    <key name="break-timer" type="as"><default>['&lt;Control&gt;3']</default><summary>Break timer</summary></key>
+    <key name="live-zoom" type="as"><default>['&lt;Control&gt;4']</default><summary>Live Zoom</summary></key>
+    <key name="live-draw" type="as"><default>['&lt;Control&gt;&lt;Shift&gt;4']</default><summary>Live Draw</summary></key>
+    <key name="record-full" type="as"><default>['&lt;Control&gt;5']</default><summary>Full screen recording</summary></key>
+    <key name="record-region" type="as"><default>['&lt;Control&gt;&lt;Shift&gt;5']</default><summary>Region recording</summary></key>
+    <key name="record-window" type="as"><default>['&lt;Control&gt;&lt;Alt&gt;5']</default><summary>Window recording</summary></key>
+    <key name="snip-copy" type="as"><default>[]</default><summary>Copy screen region</summary></key>
+    <key name="snip-save" type="as"><default>['&lt;Control&gt;&lt;Shift&gt;6']</default><summary>Save screen region</summary></key>
+    <key name="snip-ocr" type="as"><default>[]</default><summary>OCR screen region</summary></key>
+    <key name="demo-type" type="as"><default>['&lt;Control&gt;7']</default><summary>Demo Type</summary></key>
+    <key name="demo-type-previous" type="as"><default>['&lt;Control&gt;&lt;Shift&gt;7']</default><summary>Previous Demo Type snippet</summary></key>
+    <key name="cursor-highlight" type="as"><default>['&lt;Control&gt;&lt;Alt&gt;h']</default><summary>Toggle cursor highlight</summary></key>
+    <key name="panorama" type="as"><default>['&lt;Control&gt;8']</default><summary>Panorama recording</summary></key>
+
+    <key name="show-panel-indicator" type="b"><default>true</default><summary>Show Zumi icon in the GNOME top bar</summary></key>
+    <key name="clipboard-shortcuts-enabled" type="b"><default>false</default><summary>Enable ZoomIt-style clipboard keyboard shortcuts after explicit opt-in</summary></key>
+
+    <key name="default-zoom-factor" type="d"><range min="1.25" max="4.0"/><default>2.0</default><summary>Initial magnification</summary></key>
+    <key name="zoom-step" type="d"><range min="0.1" max="1.0"/><default>0.25</default><summary>Zoom step</summary></key>
+    <key name="max-zoom-factor" type="d"><range min="2.0" max="8.0"/><default>4.0</default><summary>Maximum zoom</summary></key>
+    <key name="animate-zoom" type="b"><default>true</default><summary>Animate initial static zoom</summary></key>
+    <key name="smooth-zoom" type="b"><default>true</default><summary>Animate zoom factor changes</summary></key>
+
+    <key name="annotation-width" type="d"><range min="1.0" max="48.0"/><default>4.0</default><summary>Drawing stroke width</summary></key>
+    <key name="text-font-size" type="d"><range min="12.0" max="96.0"/><default>28.0</default><summary>Drawing text size</summary></key>
+
+    <key name="break-minutes" type="i"><range min="1" max="180"/><default>10</default><summary>Default break duration</summary></key>
+    <key name="break-appearance" type="s"><choices><choice value="auto"/><choice value="dark"/><choice value="light"/></choices><default>'auto'</default><summary>Break countdown appearance (system, dark or light)</summary></key>
+    <key name="break-opacity" type="i"><range min="20" max="100"/><default>94</default><summary>Break screen opacity</summary></key>
+    <key name="break-message" type="s"><default>'Back in a moment'</default><summary>Break timer headline</summary></key>
+    <key name="break-show-end-time" type="b"><default>false</default><summary>Show expected return time on break timer</summary></key>
+
+    <key name="cursor-highlight-enabled" type="b"><default>false</default><summary>Show cursor highlight</summary></key>
+    <key name="cursor-highlight-size" type="i"><range min="24" max="120"/><default>52</default><summary>Cursor highlight diameter</summary></key>
+    <key name="cursor-highlight-color" type="s"><default>'#ffcc33'</default><summary>Cursor highlight hex color</summary></key>
+
+    <key name="focus-radius" type="i"><range min="90" max="640"/><default>220</default><summary>Focus Spotlight radius</summary></key>
+    <key name="focus-dim-opacity" type="i"><range min="20" max="95"/><default>72</default><summary>Focus Spotlight dim opacity</summary></key>
+
+    <key name="demo-type-speed" type="i"><range min="10" max="100"/><default>68</default><summary>Demo Type speed</summary></key>
+    <key name="demo-type-snippets" type="as"><default>['const hello = &quot;Zumi&quot;;', 'console.log(hello);']</default><summary>Demo Type snippets</summary></key>
+  </schema>
+</schemalist>

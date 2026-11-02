@@ -1,0 +1,22 @@
+# Generated GNOME Extension packages and schema cache
+/dist/
+/dist-ego/
+/schemas/gschemas.compiled
+
+# Tooling outputs
+/node_modules/
+/coverage/
+*.log
+*.patch
+*.zip
+*.tsv
+*.tmp
+*~
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+__pycache__/

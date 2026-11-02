@@ -1,0 +1,146 @@
+.lumalens-menu-header {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.lumalens-menu-logo {
+  margin-right: 11px;
+}
+
+.lumalens-menu-header-text {
+  spacing: 2px;
+}
+
+.lumalens-menu-title {
+  font-weight: 700;
+  font-size: 1.03em;
+}
+
+.lumalens-menu-shortcut {
+  font-size: 0.9em;
+  margin-left: 24px;
+}
+
+.lumalens-menu-status {
+  font-size: 0.88em;
+}
+
+.lumalens-canvas-overlay {
+  background-color: transparent;
+}
+
+.lumalens-status-osd {
+  color: #fff;
+  background-color: rgba(20, 20, 24, 0.92);
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-weight: 650;
+  font-size: 13px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+/* Only visible while editing. Committed text is painted directly onto the canvas. */
+.lumalens-typing-entry {
+  color: #fff;
+  background-color: rgba(12, 14, 20, 0.40);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 5px 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.24);
+}
+
+.lumalens-typing-entry:focus {
+  border-color: rgba(112, 183, 255, 0.72);
+  background-color: rgba(12, 14, 20, 0.54);
+}
+
+/* Countdown: centered ring and controls; colors follow GNOME appearance. */
+.lumalens-break-card {
+  padding: 18px 20px 22px;
+  spacing: 18px;
+  border-radius: 24px;
+  border: 1px solid rgba(137, 170, 220, 0.28);
+  box-shadow: 0 16px 44px rgba(10, 25, 55, 0.22);
+}
+.lumalens-break-card-dark {
+  border-color: rgba(160, 186, 236, 0.18);
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.38);
+}
+.lumalens-break-ring { background-color: transparent; }
+.lumalens-break-center { spacing: 4px; }
+.lumalens-break-time {
+  color: #14243c;
+  font-size: 34px;
+  font-weight: 750;
+  font-family: monospace;
+}
+.lumalens-break-end {
+  color: #526783;
+  font-size: 11px;
+  font-weight: 500;
+}
+.lumalens-break-card-dark .lumalens-break-time { color: #f2f6ff; }
+.lumalens-break-card-dark .lumalens-break-end { color: #aabbd3; }
+.lumalens-break-controls { spacing: 14px; }
+.lumalens-timer-action {
+  color: #243957;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 10px;
+  min-width: 30px;
+  min-height: 30px;
+}
+.lumalens-timer-action:hover,
+.lumalens-timer-action:focus { background-color: #dfebff; }
+.lumalens-timer-action-primary {
+  color: #ffffff;
+  background-color: #387af9;
+}
+.lumalens-timer-action-primary:hover,
+.lumalens-timer-action-primary:focus { background-color: #2563d9; }
+.lumalens-break-card-dark .lumalens-timer-action {
+  color: #e7f0ff;
+  background-color: #2a3954;
+}
+.lumalens-break-card-dark .lumalens-timer-action:hover,
+.lumalens-break-card-dark .lumalens-timer-action:focus { background-color: #3a5075; }
+.lumalens-break-card-dark .lumalens-timer-action-primary { background-color: #387af9; }
+.lumalens-break-card-dark .lumalens-timer-action-primary:hover,
+.lumalens-break-card-dark .lumalens-timer-action-primary:focus { background-color: #2563d9; }
+
+.lumalens-cursor-highlight { background-color: transparent; }
+
+.lumalens-focus-spotlight {
+  background-color: transparent;
+}
+
+.lumalens-region-selector {
+  background-color: transparent;
+}
+
+/* OCR selection stays visible while processing; no continuously repainted actors. */
+.zumi-ocr-overlay { background-color: transparent; }
+.zumi-ocr-toolbar {
+  background-color: rgba(15, 25, 46, 0.96);
+  border: 1px solid rgba(128, 163, 230, 0.36);
+  border-radius: 13px;
+  padding: 7px 9px;
+  spacing: 8px;
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.28);
+}
+.zumi-ocr-label { color: #eff5ff; font-size: 12px; }
+.zumi-ocr-busy { color: #6db5ff; }
+.zumi-ocr-copy {
+  background-color: #387af9;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 11px;
+  font-weight: 700;
+}
+.zumi-ocr-copy:hover, .zumi-ocr-copy:focus { background-color: #2563d9; }
+.zumi-ocr-close {
+  color: #dce8fa;
+  border-radius: 8px;
+  padding: 6px 9px;
+}
+.zumi-ocr-close:hover, .zumi-ocr-close:focus { background-color: #34435e; }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="beacon-blue" x1="22" y1="16" x2="242" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C96FF"/>
+      <stop offset="0.48" stop-color="#387AF9"/>
+      <stop offset="1" stop-color="#1554D9"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#beacon-blue)"/>
+  <!-- Segmented focus ring: motion around a single fixed point. -->
+  <g fill="none" stroke-linecap="butt" stroke-width="30">
+    <path d="M128 58 A70 70 0 1 0 197 141" stroke="#F8FBFF"/>
+    <path d="M161 66 A70 70 0 0 1 195 106" stroke="#B8F3FF"/>
+  </g>
+  <rect x="111" y="111" width="34" height="34" rx="5" transform="rotate(45 128 128)" fill="#F8FBFF"/>
+</svg>

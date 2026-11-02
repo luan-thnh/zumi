@@ -1,0 +1,12 @@
+{
+  "name": "zumi-gnome-extension",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "find . -name '*.js' -not -path './dist/*' -print0 | xargs -0 -n1 node --check",
+    "verify": "npm run check && npm test",
+    "ego:check": "node scripts/ego-preflight.mjs",
+    "ego:pack": "./scripts/pack-ego.sh"
+  }
+}

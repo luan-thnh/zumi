@@ -1,0 +1,10 @@
+{
+  "uuid": "lumalens@luanthnh.dev",
+  "name": "Zumi",
+  "description": "Zumi brings smooth screen zoom, drawing, a minimal countdown, cursor highlighting, spotlight, recording, region capture and OCR to GNOME Shell 50. Clipboard access happens only when you explicitly copy a screenshot or OCR result.",
+  "shell-version": [
+    "50"
+  ],
+  "version": 32,
+  "settings-schema": "org.gnome.shell.extensions.lumalens"
+}
